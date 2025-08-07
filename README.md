@@ -13,38 +13,11 @@ A modern, responsive Instagram-like web application enabling users to share phot
   <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%BB%20HTML%20%7C%20CSS%20%7C%20JS-blue" alt="Tech Stack"/>
 </p>
 
----
-
-<header>
-  <h1 id="typewriter-header"></h1>
-</header>
-<script>
-const words = [
-  "Share your moments.",
-  "Connect with friends.",
-  "Discover new stories.",
-  "Experience Instagram, reimagined."
-];
-let i = 0, j = 0, isDeleting = false;
-function typeHeader() {
-  const el = document.getElementById('typewriter-header');
-  if (!el) return;
-  let current = words[i].substring(0, j);
-  el.textContent = current + '|';
-  if (!isDeleting && j < words[i].length) {
-    j++;
-    setTimeout(typeHeader, 80);
-  } else if (isDeleting && j > 0) {
-    j--;
-    setTimeout(typeHeader, 40);
-  } else {
-    isDeleting = !isDeleting;
-    if (!isDeleting) i = (i + 1) % words.length;
-    setTimeout(typeHeader, 800);
-  }
-}
-window.addEventListener('DOMContentLoaded', typeHeader);
-</script>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=E1306C&center=true&vCenter=true&width=900&lines=Share+your+moments.;Connect+with+friends.;Discover+new+stories.;Experience+Instagram,+reimagined." alt="Typewriter Heading by typing-svg.demolab" />
+  <br/>
+  
+</p>
 
 ---
 

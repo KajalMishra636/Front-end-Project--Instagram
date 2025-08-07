@@ -6,8 +6,47 @@ A modern, responsive Instagram-like web application enabling users to share phot
 <p align="center">
   <img src="assets/instagram-logo.png" alt="Instagram Logo" width="120"/>
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/>
+  <img src="https://img.shields.io/github/license/yourusername/instagram-clone" alt="License"/>
+  <img src="https://img.shields.io/badge/Made%20with-%F0%9F%92%BB%20HTML%20%7C%20CSS%20%7C%20JS-blue" alt="Tech Stack"/>
+</p>
+
 ---
 
+<header>
+  <h1 id="typewriter-header"></h1>
+</header>
+<script>
+const words = [
+  "Share your moments.",
+  "Connect with friends.",
+  "Discover new stories.",
+  "Experience Instagram, reimagined."
+];
+let i = 0, j = 0, isDeleting = false;
+function typeHeader() {
+  const el = document.getElementById('typewriter-header');
+  if (!el) return;
+  let current = words[i].substring(0, j);
+  el.textContent = current + '|';
+  if (!isDeleting && j < words[i].length) {
+    j++;
+    setTimeout(typeHeader, 80);
+  } else if (isDeleting && j > 0) {
+    j--;
+    setTimeout(typeHeader, 40);
+  } else {
+    isDeleting = !isDeleting;
+    if (!isDeleting) i = (i + 1) % words.length;
+    setTimeout(typeHeader, 800);
+  }
+}
+window.addEventListener('DOMContentLoaded', typeHeader);
+</script>
+
+---
 
 ## 🚀 Features
 
@@ -92,7 +131,13 @@ instagram-clone/
 
 ---
 
-## 📝 Contributing
+## 🌐 Live Demo
+
+> Coming soon! Stay tuned for a hosted preview.
+
+---
+
+## 🤝 Contributing
 
 Pull requests and suggestions are welcome!  
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
@@ -102,4 +147,10 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+---
+
+<p align="center">
+  Inspired by <a href="https://www.instagram.com/" target="_blank">Instagram</a> • Built for learning and fun!
+</p>
 

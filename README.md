@@ -1,6 +1,8 @@
 
 <p align="center">
-  <img src="assets/instagram-logo.png" alt="Instagram Logo" width="120"/>
+  <img width="494" height="505" alt="insta1-removebg-preview" src="https://github.com/user-attachments/assets/61d628c4-1c24-4849-ac95-66265b1d98fd" alt="Instagram Logo" width="120"/>
+
+  
 </p>
 
 <p align="center">
@@ -10,7 +12,6 @@
 </p>
 
 <p align="center">
-  <img width="494" height="505" alt="insta1-removebg-preview" src="https://github.com/user-attachments/assets/983b6167-5d9f-4186-89e4-88deef08123f" />
 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=E1306C&center=true&vCenter=true&width=900&lines=Share+your+moments.;Connect+with+friends.;Discover+new+stories.;Experience+Instagram,+reimagined." alt="Typewriter Heading by typing-svg.demolab" />
   <br/>

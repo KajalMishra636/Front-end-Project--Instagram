@@ -1,9 +1,5 @@
-
 <p align="center">
   <img width="494" height="505" alt="insta1-removebg-preview" src="https://github.com/user-attachments/assets/61d628c4-1c24-4849-ac95-66265b1d98fd" alt="Instagram Logo" width="20" height="20"/>
-
-  
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/>

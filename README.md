@@ -2,7 +2,7 @@
   <img width="50" height="50" alt="insta1-removebg-preview" src="https://github.com/user-attachments/assets/61d628c4-1c24-4849-ac95-66265b1d98fd" alt="Instagram Logo" width="20" height="20"/>
 
   
-<img width="70" height="70" alt="instalogo" src="https://github.com/user-attachments/assets/37529373-9013-485f-a9ea-c2f914d32029" />
+<img width="100" height="100" alt="instalogo" src="https://github.com/user-attachments/assets/37529373-9013-485f-a9ea-c2f914d32029" />
 
 <p align="center">
   <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"/>
